@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RADDISHED</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="RADDISHED">
+    <link rel="apple-touch-icon" href="images/logo.png">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loader">
+            <img src="Assets/Images/Logo.png" alt="Logo" class="loading-logo">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pwa-notice" id="pwaNotice">
+        <img src="Assets/Images/Logo.png" alt="RADDISHED Logo" class="notice-icon">
+        <div class="notice-content">
+            <h3>Please add to home screen</h3>
+            <p>Website might not function properly if not installed as an app</p>
+        </div>
+        <div class="notice-buttons">
+            <button class="notice-btn cancel-btn">Dismiss</button>
+            <button class="notice-btn install-btn">Add to home screen</button>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="nav-left">
+                <img src="Assets/Images/Logo.png" alt="RADDISHED Logo" class="logo">
+                <h1>RADDISHED</h1>
+            </div>
+            <a href="credits.html" class="credits-btn">Credits</a>
+        </nav>
+    </header>
+
+    <div class="hero-banner">
+        <div class="banner-content">
+            <img src="Assets/Images/Logo.png" alt="Raddished Logo" class="banner-logo">
+            <h1>RADDISHED</h1>
+        </div>
+    </div>
+
+    <main>
+        <section id="popular">
+            <h2>Popular Games</h2>
+            <div class="games-container">
+                <button class="scroll-btn prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="games-row">
+                    <a href="Assets/Games/fnaf/index.html" class="game-card">
+                        <img src="Assets/Game_Images/Fnaf.png" alt="Five Nights at Freddy's">
+                        <span class="badge">Five Nights at Freddy's</span>
+                    </a>
+                    <a href="Assets/Games/flappy-bird/index.html" class="game-card">
+                        <img src="Assets/Game_Images/FlappyBird.png" alt="Flappy Bird">
+                        <span class="badge">Flappy Bird</span>
+                    </a>
+                    <a href="Assets/Games/drivemad/index.html" class="game-card">
+                        <img src="Assets/Game_Images/DriveMad.png" alt="Drive Mad">
+                        <span class="badge">Drive Mad</span>
+                    </a>
+                    <a href="Assets/Games/cookieclicker/index.html" class="game-card">
+                        <img src="Assets/Game_Images/CookieClicker.png" alt="Cookie Clicker">
+                        <span class="badge">Cookie Clicker</span>
+                    </a>
+                    <a href="Assets/Games/jetpack-joyride/index.html" class="game-card">
+                        <img src="Assets/Game_Images/JetpackJoyride.png" alt="Jetpack Joyride">
+                        <span class="badge">Jetpack Joyride</span>
+                    </a>
+                </div>
+                <button class="scroll-btn next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <section id="featured">
+            <h2>Featured Games</h2>
+            <div class="games-container">
+                <button class="scroll-btn prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="games-row">
+                    <a href="Assets/Games/monkey-mart/index.html" class="game-card">
+                        <img src="Assets/Game_Images/MonkeyMart.png" alt="Monkey Mart">
+                        <span class="badge">Monkey Mart</span>
+                    </a>
+                    <a href="Assets/Games/ovo/index.html" class="game-card">
+                        <img src="Assets/Game_Images/OvO.png" alt="OvO">
+                        <span class="badge">OvO</span>
+                    </a>
+                    <a href="Assets/Games/bitlife/index.html" class="game-card">
+                        <img src="Assets/Game_Images/BitLife.png" alt="BitLife">
+                        <span class="badge">BitLife</span>
+                    </a>
+                    <a href="Assets/Games/crossyroad/index.html" class="game-card">
+                        <img src="Assets/Game_Images/CrossyRoad.png" alt="Crossy Road">
+                        <span class="badge">Crossy Road</span>
+                    </a>
+                    <a href="Assets/Games/cut-the-rope/index.html" class="game-card">
+                        <img src="Assets/Game_Images/CutTheRope.png" alt="Cut the Rope">
+                        <span class="badge">Cut the Rope</span>
+                    </a>
+                </div>
+                <button class="scroll-btn next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <section id="new">
+            <h2>New Games</h2>
+            <div class="games-container">
+                <button class="scroll-btn prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="games-row">
+                    <a href="Assets/Games/basketballstars/index.html" class="game-card">
+                        <img src="Assets/Game_Images/BasketballStars.png" alt="Basketball Stars">
+                        <span class="badge">Basketball Stars</span>
+                    </a>
+                    <a href="Assets/Games/basketball-random/index.html" class="game-card">
+                        <img src="Assets/Game_Images/BasketballRandom.png" alt="Basketball Random">
+                        <span class="badge">Basketball Random</span>
+                    </a>
+                    <a href="Assets/Games/agario/index.html" class="game-card">
+                        <img src="Assets/Game_Images/Agario.png" alt="Agar.io">
+                        <span class="badge">Agar.io</span>
+                    </a>
+                    <a href="Assets/Games/baldisbasics/index.html" class="game-card">
+                        <img src="Assets/Game_Images/BaldisBasics.png" alt="Baldi's Basics">
+                        <span class="badge">Baldi's Basics</span>
+                    </a>
+                    <a href="Assets/Games/boxingrandom/index.html" class="game-card">
+                        <img src="Assets/Game_Images/BoxingRandom.png" alt="Boxing Random">
+                        <span class="badge">Boxing Random</span>
+                    </a>
+                </div>
+                <button class="scroll-btn next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Game Portal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+    </script>
+</body>
+</html> 
